@@ -44,7 +44,6 @@ cd your-repository
 
    ```properties
    spring.application.name=springboot-restful-web-services
-   spring.application.name=springboot-restful-web-services
    spring.datasource.url=jdbc:mysql://localhost:3306/user_management
    spring.datasource.username=root
    spring.datasource.password=
