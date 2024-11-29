@@ -16,7 +16,7 @@ This project demonstrates how to build a simple RESTful CRUD (Create, Read, Upda
 - **Spring Data JPA**: A part of Spring that integrates JPA to interact with relational databases.
 - **MySQL**: A relational database management system for storing data.
 - **Hibernate**: ORM (Object-Relational Mapping) for interacting with the database.
-- **Postman** or **curl**: For testing API endpoints.
+- **Postman**: For testing API endpoints.
 
 ## Getting Started
 
@@ -39,16 +39,17 @@ cd your-repository
 ### Configuration
 
 1. **Set up MySQL Database**:
-   - Create a database in MySQL (e.g., `spring_boot_crud_api`).
+   - Create a database in MySQL (e.g., `user_management`).
    - Update `src/main/resources/application.properties` with your MySQL credentials:
 
    ```properties
-   spring.datasource.url=jdbc:mysql://localhost:3306/spring_boot_crud_api
+   spring.application.name=springboot-restful-web-services
+   spring.application.name=springboot-restful-web-services
+   spring.datasource.url=jdbc:mysql://localhost:3306/user_management
    spring.datasource.username=root
-   spring.datasource.password=yourpassword
+   spring.datasource.password=
+   spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
    spring.jpa.hibernate.ddl-auto=update
-   spring.jpa.show-sql=true
-   spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
    ```
 
 2. **Build the Project**:
