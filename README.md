@@ -77,21 +77,21 @@ http://localhost:8080
 
 The following endpoints are available in the API:
 
-- **Create Resource**: `POST /api/resources`
+- **Create User**: `POST /api/users`
   - Request Body: JSON data for the resource to be created.
   - Response: HTTP status code 201 (Created).
 
-- **Get All Resources**: `GET /api/resources`
+- **Get All Users**: `GET /api/users`
   - Response: List of all resources in JSON format.
 
-- **Get Resource by ID**: `GET /api/resources/{id}`
+- **Get Users by ID**: `GET /api/users/{id}`
   - Response: A single resource in JSON format.
 
-- **Update Resource**: `PUT /api/resources/{id}`
+- **Update User**: `PUT /api/users/{id}`
   - Request Body: Updated JSON data for the resource.
   - Response: HTTP status code 200 (OK).
 
-- **Delete Resource**: `DELETE /api/resources/{id}`
+- **Delete User**: `DELETE /api/users/{id}`
   - Response: HTTP status code 200 (OK).
 
 ### Example Request
