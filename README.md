@@ -32,8 +32,8 @@ To get started with this project, make sure you have the following tools install
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/your-repository.git
-cd your-repository
+git clone https://github.com/M-M-I-V/springboot.git
+cd springboot
 ```
 
 ### Configuration
